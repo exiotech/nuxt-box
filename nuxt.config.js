@@ -40,7 +40,7 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/axios',
-    '@nuxtjs/web3',
+    '@exio.tech/nuxt-web3',
   ],
   /*
   ** Axios module configuration
@@ -68,6 +68,6 @@ module.exports = {
       }
     }
   },
-	srcDir: 'src/',
+	srcDir: 'app/',
 	rootDir: './'
 }
